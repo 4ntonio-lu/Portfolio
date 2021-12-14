@@ -1,0 +1,73 @@
+#about-me {
+    height: 4vw;
+    width: 4vw;
+    font-size: 0.75vw;
+    border-radius: 50%;
+    margin-left: 0vw;
+    transform: translate(-30vw, -1vw);
+    padding-top: 0.5vw;
+}
+
+#about-me:hover {
+    background-color: #cccccc;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 2.5vw;
+    letter-spacing: 0.2vw;
+    color: white;
+    font-weight: 600;
+    margin-top: 1vw;
+    margin-block-end: 1vw;
+}
+
+body {
+    text-align: center;
+    font-family: Helvetica;
+    background-image: url(Pictures/Background.jpg);
+    background-size: 100vw;
+}
+
+.box {
+    height: 20vw;
+    width: 60vw;
+    color: white;
+    opacity: 0.75;
+    background-color: grey;
+    margin: 0vw auto 2vw;
+}
+
+.box:hover {
+    opacity: 1.0;
+}
+
+.box:active {
+    transform: translate(-0.125vw, 0.25vw);
+}
+
+.picture {
+    margin: 0vw;
+    height: 15.5vw;
+    width: 54vw;
+    background-size: 52vw;
+    margin: 2vw auto;
+}
+
+.name {
+    font-weight: 800;
+    letter-spacing: 0.25vw;
+    margin-bottom: 0px;
+    font-size: 7.5vw;
+    margin-block-start: 0vw;
+    transform: translateY(-15vw);
+    color: white;
+    text-shadow: -0.1vw 0.1vw 0 #000, 0.1vw 0.1vw 0 #000, 0.1vw -0.1vw 0 #000, -0.1vw -0.1vw 0 #000;
+}
+
+.description {
+    transform: translateY(-12.5vw);
+    font-size: 0.75vw;
+}
