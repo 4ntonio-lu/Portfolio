@@ -1,16 +1,38 @@
-#about-me {
-    height: 4vw;
-    width: 4vw;
+/*#about-me {
+    height: 2vw;
+    width: 5vw;
     font-size: 0.75vw;
-    border-radius: 50%;
+    border-radius: 10%;
     margin-left: 0vw;
-    transform: translate(-30vw, -1vw);
+    transform: translate(-28vw, -1vw);
     padding-top: 0.5vw;
+    background-color: transparent;
+    color: #cccccc;
+    border-color: #cccccc;
 }
 
 #about-me:hover {
     background-color: #cccccc;
-    color: white;
+    color: black;
+}*/
+
+#about-me {
+  transition: box-shadow 0.75s ease-in-out;
+  background-color: transparent;
+  border: 3px solid #cccccc;
+  border-radius: 0.5vw;
+  color: #cccccc;
+  font-size: 0.75vw;
+  font-weight: 700;
+  transform: translate(-28vw, -1vw);
+  height: 2.5vw;
+  width: 7vw;
+}
+
+#about-me:hover {
+  box-shadow: 0 0 40px 40px #cccccc inset;
+  color: black;
+  cursor: pointer;
 }
 
 #title {
@@ -38,10 +60,12 @@ body {
     opacity: 0.75;
     background-color: grey;
     margin: 0vw auto 2vw;
+    transition: 0.5s;
 }
 
 .box:hover {
     opacity: 1.0;
+    cursor: pointer;
 }
 
 .box:active {
