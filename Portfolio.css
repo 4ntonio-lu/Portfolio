@@ -1,6 +1,10 @@
+html {
+    height: 70vh; /* Why can't I set the height of the page?? */
+}
+
 #about-me {
   transition: box-shadow 0.75s ease-in-out;
-  transform: translate(-28vw, -1vw);
+  transform: translateX(-33vw);
   background-color: transparent;
   border: 3px solid #cccccc;
   border-radius: 0.5vw;
@@ -18,13 +22,14 @@
 }
 
 #title {
+    transform: translateX(-3vw);
     font-family: Helvetica;
     margin-block-end: 1vw;
     letter-spacing: 0.2vw;
     text-align: center;
     font-weight: 600;
-    font-size: 2.5vw;
-    margin-top: 1vw;
+    font-size: 1.5vw;
+    margin: 2vw auto;
     color: white;
 }
 
