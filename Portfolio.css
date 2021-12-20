@@ -4,15 +4,17 @@ html {
 
 #about-me {
   transition: box-shadow 0.75s ease-in-out;
-  transform: translateX(-33vw);
   background-color: transparent;
   border: 3px solid #cccccc;
   border-radius: 0.5vw;
+  position: absolute;
   font-size: 0.75vw;
   font-weight: 700;
   color: #cccccc;
   height: 2.5vw;
-  width: 7vw;
+  width: 8vw;
+  left: 2vw;
+  top: 2vw;
 }
 
 #about-me:hover {
@@ -22,7 +24,6 @@ html {
 }
 
 #title {
-    transform: translateX(-3vw);
     font-family: Helvetica;
     margin-block-end: 1vw;
     letter-spacing: 0.2vw;
@@ -41,6 +42,7 @@ body {
 }
 
 .box {
+    transition: opacity 0.5s ease-in;
     background-color: grey;
     margin: 0vw auto 2vw;
     transition: 0.5s;
